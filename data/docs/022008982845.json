@@ -1,0 +1,53 @@
+{
+ "ref": "022008982845",
+ "refDisplay": "0220 08 982845",
+ "title": "GARNITURE DE PORTE LATERALE AV BATTANTE",
+ "nature": "",
+ "applicability": "ACCOUDOIR LAT LONG AV ET VELOURS FERRY \"BT\"",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6M",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6P",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6R",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Q",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6G",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F7G",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F2N",
+   "fctId": "FCT0135"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0FE3",
+   "fctId": "FCT0135"
+  }
+ ]
+}

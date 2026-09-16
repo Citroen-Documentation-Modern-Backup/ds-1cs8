@@ -1,0 +1,28 @@
+{
+ "ref": "022006173007",
+ "refDisplay": "0220 06 173007",
+ "title": "CANALISATION FIX FILTRE CARBURANT",
+ "nature": "",
+ "applicability": "GPL+ESSENCE SANS PLOMB ET RESERVOIR GPL CYLINDRIQUE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6R",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6R",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6R",
+   "fctId": "FCT0010"
+  }
+ ]
+}

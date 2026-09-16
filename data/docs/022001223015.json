@@ -1,0 +1,28 @@
+{
+ "ref": "022001223015",
+ "refDisplay": "0220 01 223015",
+ "title": "CARTER HUILE FILTRE SONDE",
+ "nature": "",
+ "applicability": " JUSQU’A OPR 07818",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6M",
+   "fctId": "FCT0008"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6M",
+   "fctId": "FCT0008"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6M",
+   "fctId": "FCT0008"
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "ref": "022001330560",
+ "refDisplay": "0220 01 330560",
+ "title": "NECESSAIRE REPAR POCHETTES JOINTS BVA",
+ "nature": "",
+ "applicability": "BVA MB3",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6M",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6P",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6R",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6Q",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6G",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F7G",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F7J",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6L",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F2N",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0FE3",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6M",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6P",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6R",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Q",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6G",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F7G",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F2N",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0FE3",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6M",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6P",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6R",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6Q",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6G",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F7G",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0FE3",
+   "fctId": "FCT0017"
+  }
+ ]
+}

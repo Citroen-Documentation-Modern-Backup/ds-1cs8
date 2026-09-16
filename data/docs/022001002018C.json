@@ -1,0 +1,18 @@
+{
+ "ref": "022001002018C",
+ "refDisplay": "0220 01 002018C",
+ "title": "ENSEMBLE MOTEUR",
+ "nature": "",
+ "applicability": "DEPOLLUTION TECHNIQUE VEHICULE L4 ET BVM",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F7J",
+   "fctId": "FCT0049"
+  }
+ ]
+}

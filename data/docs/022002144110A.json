@@ -1,0 +1,23 @@
+{
+ "ref": "022002144110A",
+ "refDisplay": "0220 02 144110A",
+ "title": "CALCULATEUR CAPTEUR ALIMENTATION",
+ "nature": "",
+ "applicability": "DEPOLLUTION TECHNIQUE VEHICULE L3 ET BVM DEPUIS OPR 07868",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F2N",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F2N",
+   "fctId": "FCT0010"
+  }
+ ]
+}

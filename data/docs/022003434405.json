@@ -1,0 +1,18 @@
+{
+ "ref": "022003434405",
+ "refDisplay": "0220 03 434405",
+ "title": "BRAS BUTEES MOYEUX ROULEMENTS ARRIERE",
+ "nature": "",
+ "applicability": "SUSPENSION NORMALE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6L",
+   "fctId": "FCT0030"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "ref": "022001112018B",
+ "refDisplay": "0220 01 112018B",
+ "title": "CULASSE - COUVRE CULASSE",
+ "nature": "",
+ "applicability": "DEPOLLUTION TECHNIQUE VEHICULE L3 ET BVM DEPUIS OPR 07875",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F2N",
+   "fctId": "FCT0006"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F2N",
+   "fctId": "FCT0006"
+  }
+ ]
+}

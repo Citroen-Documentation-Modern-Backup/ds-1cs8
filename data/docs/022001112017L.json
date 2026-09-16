@@ -1,0 +1,28 @@
+{
+ "ref": "022001112017L",
+ "refDisplay": "0220 01 112017L",
+ "title": "CULASSE - COUVRE CULASSE",
+ "nature": "",
+ "applicability": "BVA DEPUIS OPR 07610 SAUF DEPOLLUTION TECHNIQUE VEHICULE L4 SAUF DEPOLLUTION TECHNIQUE VEHICULE K PRIM",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6Q",
+   "fctId": "FCT0006"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Q",
+   "fctId": "FCT0006"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6Q",
+   "fctId": "FCT0006"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "ref": "022001121020",
+ "refDisplay": "0220 01 121020",
+ "title": "VILEBREQUIN",
+ "nature": "",
+ "applicability": " JUSQU’A OPR 08161",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6L",
+   "fctId": "FCT0005"
+  }
+ ]
+}

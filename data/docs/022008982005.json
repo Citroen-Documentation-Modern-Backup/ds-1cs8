@@ -1,0 +1,53 @@
+{
+ "ref": "022008982005",
+ "refDisplay": "0220 08 982005",
+ "title": "GARNITURE PAVILLON - POIGNEE MONTOIRE",
+ "nature": "",
+ "applicability": "TOIT FIXE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6M",
+   "fctId": "FCT0235"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6P",
+   "fctId": "FCT0235"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6R",
+   "fctId": "FCT0235"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Q",
+   "fctId": "FCT0235"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6G",
+   "fctId": "FCT0235"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F7G",
+   "fctId": "FCT0235"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F2N",
+   "fctId": "FCT0235"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0FE3",
+   "fctId": "FCT0235"
+  }
+ ]
+}

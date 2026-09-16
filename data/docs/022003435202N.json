@@ -1,0 +1,28 @@
+{
+ "ref": "022003435202N",
+ "refDisplay": "0220 03 435202N",
+ "title": "BARRES ANTIDEVERS AVANT",
+ "nature": "",
+ "applicability": "SUSPENSION NORMALE",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6P",
+   "fctId": "FCT0029"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6P",
+   "fctId": "FCT0029"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6P",
+   "fctId": "FCT0029"
+  }
+ ]
+}

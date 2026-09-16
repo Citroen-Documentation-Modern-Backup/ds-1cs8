@@ -1,0 +1,98 @@
+{
+ "ref": "022007841101",
+ "refDisplay": "0220 07 841101",
+ "title": "PORTES LATERALES AV BATTANTES",
+ "nature": "",
+ "applicability": " SAUF PROTECTEURS LATERAUX BI-TON",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6M",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6P",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6R",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6Q",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6G",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F7G",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F7J",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6L",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F2N",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0FE3",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6M",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6P",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6R",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6Q",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6G",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F7G",
+   "fctId": "FCT0132"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0FE3",
+   "fctId": "FCT0132"
+  }
+ ]
+}

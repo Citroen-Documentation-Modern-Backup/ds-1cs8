@@ -1,0 +1,28 @@
+{
+ "ref": "022006236007E",
+ "refDisplay": "0220 06 236007E",
+ "title": "DURIT RACCORD DE REFROIDISSEMENT",
+ "nature": "",
+ "applicability": "DEPOLLUTION TECHNIQUE VEHICULE L4 ET BVM ET REFRIGERATION JUSQU’A OPR 09092 OU DEPOLLUTION TECHNIQUE VEHICULE K PRIM ET BVM ET REFRIGERATION JUSQU’A OPR 09092 OU DEPOL TECHNIQUE VEHICULE INCITATION FISCALE EURO 4 ET BVM ET REFRIGERATION JUSQU’A OPR 09092",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6Q",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Q",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6Q",
+   "fctId": "FCT0009"
+  }
+ ]
+}

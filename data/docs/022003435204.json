@@ -1,0 +1,23 @@
+{
+ "ref": "022003435204",
+ "refDisplay": "0220 03 435204",
+ "title": "BARRES ANTIDEVERS AVANT",
+ "nature": "",
+ "applicability": "SUSPENSION NORMALE ET TAMBOURS AR",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F2N",
+   "fctId": "FCT0029"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F2N",
+   "fctId": "FCT0029"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "ref": "022003440531",
+ "refDisplay": "0220 03 440531",
+ "title": "CANALISATION TUYAU HP/BP SERVO",
+ "nature": "",
+ "applicability": "DIRECTION ASSISTEE ET CONDUITE A GAUCHE DEPUIS OPR 07847",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0FE3",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0FE3",
+   "fctId": "FCT0339"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0FE3",
+   "fctId": "FCT0339"
+  }
+ ]
+}

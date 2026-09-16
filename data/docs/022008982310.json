@@ -1,0 +1,48 @@
+{
+ "ref": "022008982310",
+ "refDisplay": "0220 08 982310",
+ "title": "TABLETTE AR - CACHE BAGAGES",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6M",
+   "fctId": "FCT0240"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6P",
+   "fctId": "FCT0240"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6R",
+   "fctId": "FCT0240"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6Q",
+   "fctId": "FCT0240"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6G",
+   "fctId": "FCT0240"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F7G",
+   "fctId": "FCT0240"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0FE3",
+   "fctId": "FCT0240"
+  }
+ ]
+}

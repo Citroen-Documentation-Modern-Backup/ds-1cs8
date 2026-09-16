@@ -1,0 +1,23 @@
+{
+ "ref": "022003434402I",
+ "refDisplay": "0220 03 434402I",
+ "title": "BRAS BUTEES MOYEUX ROULEMENTS ARRIERE",
+ "nature": "",
+ "applicability": " JUSQU’A OPR 08792",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6P",
+   "fctId": "FCT0030"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6P",
+   "fctId": "FCT0030"
+  }
+ ]
+}

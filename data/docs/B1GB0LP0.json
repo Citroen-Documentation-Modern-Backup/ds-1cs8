@@ -1,0 +1,20 @@
+{
+ "ref": "B1GB0LP0",
+ "refDisplay": "B1GB0LP0",
+ "title": "Caractéristiques : circuits de refroidissement",
+ "nature": "Caractéristiques - identifications",
+ "applicability": "",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6L",
+   "fctId": "FCT0009"
+  }
+ ]
+}

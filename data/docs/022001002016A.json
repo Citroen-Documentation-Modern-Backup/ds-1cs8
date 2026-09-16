@@ -1,0 +1,28 @@
+{
+ "ref": "022001002016A",
+ "refDisplay": "0220 01 002016A",
+ "title": "ENSEMBLE MOTEUR",
+ "nature": "",
+ "applicability": " DEPUIS OPR 07728 SAUF GPL+ESSENCE SANS PLOMB",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6R",
+   "fctId": "FCT0049"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6R",
+   "fctId": "FCT0049"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6R",
+   "fctId": "FCT0049"
+  }
+ ]
+}

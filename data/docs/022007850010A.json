@@ -1,0 +1,28 @@
+{
+ "ref": "022007850010A",
+ "refDisplay": "0220 07 850010A",
+ "title": "TRAPPE BOUCHON RESERVOIR",
+ "nature": "",
+ "applicability": "GNV+ESSENCE SANS PLOMB",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6Q",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Q",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6Q",
+   "fctId": "FCT0010"
+  }
+ ]
+}

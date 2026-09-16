@@ -1,0 +1,28 @@
+{
+ "ref": "022005501280",
+ "refDisplay": "0220 05 501280",
+ "title": "FAISCEAU MOTEUR",
+ "nature": "",
+ "applicability": "DEPOL CEE 19-5 (MOTEUR)",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6G",
+   "fctId": "FCT0308"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6G",
+   "fctId": "FCT0308"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6G",
+   "fctId": "FCT0308"
+  }
+ ]
+}

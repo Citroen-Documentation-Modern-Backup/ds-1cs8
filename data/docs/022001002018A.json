@@ -1,0 +1,23 @@
+{
+ "ref": "022001002018A",
+ "refDisplay": "0220 01 002018A",
+ "title": "ENSEMBLE MOTEUR",
+ "nature": "",
+ "applicability": "BVM DEPUIS OPR 07147 JUSQU’A OPR 07874",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F2N",
+   "fctId": "FCT0049"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F2N",
+   "fctId": "FCT0049"
+  }
+ ]
+}

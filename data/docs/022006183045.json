@@ -1,0 +1,18 @@
+{
+ "ref": "022006183045",
+ "refDisplay": "0220 06 183045",
+ "title": "COLLECTEUR CATALYSEUR ECHAPP AV",
+ "nature": "",
+ "applicability": " SAUF DEPOLLUTION TECHNIQUE VEHICULE L4",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6L",
+   "fctId": "FCT0011"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "ref": "022002212030",
+ "refDisplay": "0220 02 212030",
+ "title": "BOUGIES - MODULE - BOBINE ALLUMAGE",
+ "nature": "",
+ "applicability": " SAUF DEPOL CEE 2000 (MOTEUR)",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6L",
+   "fctId": "FCT0013"
+  }
+ ]
+}

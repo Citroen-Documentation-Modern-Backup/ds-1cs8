@@ -1,0 +1,28 @@
+{
+ "ref": "022001123017C",
+ "refDisplay": "0220 01 123017C",
+ "title": "ARBRE A CAMES COURROIE PIGNON",
+ "nature": "",
+ "applicability": "DEPOLLUTION TECHNIQUE VEHICULE L4 ET BVA JUSQU’A MOTEUR 3666765 OU DEPOLLUTION TECHNIQUE VEHICULE K PRIM ET BVM JUSQU’A MOTEUR 3666765 OU DEPOLLUTION TECHNIQUE VEHICULE L4 ET BVM JUSQU’A MOTEUR 3666765 OU DEPOLLUTION TECHNIQUE VEHICULE K PRIM ET BVA JUSQU’A MOTEUR 3666765",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6Q",
+   "fctId": "FCT0007"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Q",
+   "fctId": "FCT0007"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6Q",
+   "fctId": "FCT0007"
+  }
+ ]
+}

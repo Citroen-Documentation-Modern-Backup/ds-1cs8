@@ -1,0 +1,28 @@
+{
+ "ref": "022005501236",
+ "refDisplay": "0220 05 501236",
+ "title": "FAISCEAU MOTEUR",
+ "nature": "",
+ "applicability": " DEPUIS OPR 08575",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F7J",
+   "fctId": "FCT0308"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F2N",
+   "fctId": "FCT0308"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F2N",
+   "fctId": "FCT0308"
+  }
+ ]
+}

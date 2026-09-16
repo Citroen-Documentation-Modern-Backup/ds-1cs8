@@ -1,0 +1,28 @@
+{
+ "ref": "022006183037A",
+ "refDisplay": "0220 06 183037A",
+ "title": "COLLECTEUR CATALYSEUR ECHAPP AV",
+ "nature": "",
+ "applicability": "DEPOLLUTION TECHNIQUE VEHICULE L4 OU  SAUF GNV+ESSENCE SANS PLOMB OU DEPOL CEE 2000 (MOTEUR) ET DEPOLLUTION TECHNIQUE VEHICULE K PRIM",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6Q",
+   "fctId": "FCT0011"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Q",
+   "fctId": "FCT0011"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6Q",
+   "fctId": "FCT0011"
+  }
+ ]
+}

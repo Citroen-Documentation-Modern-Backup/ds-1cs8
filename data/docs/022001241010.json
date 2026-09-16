@@ -1,0 +1,23 @@
+{
+ "ref": "022001241010",
+ "refDisplay": "0220 01 241010",
+ "title": "MOTOVENTILATEUR BUSE CONDUIT D’AIR",
+ "nature": "",
+ "applicability": "DEPOLLUTION TECHNIQUE VEHICULE L3 ET BVM5 ET SANS REFRIGERATION SAUF PAYS CHAUDS",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F2N",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F2N",
+   "fctId": "FCT0009"
+  }
+ ]
+}

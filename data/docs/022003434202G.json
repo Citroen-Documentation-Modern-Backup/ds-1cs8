@@ -1,0 +1,28 @@
+{
+ "ref": "022003434202G",
+ "refDisplay": "0220 03 434202G",
+ "title": "BARRES TORSION AVANT RESSORT",
+ "nature": "",
+ "applicability": "VTS AM98 1/2 JUSQU’A OPR 07875",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6R",
+   "fctId": "FCT0027"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6R",
+   "fctId": "FCT0027"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6R",
+   "fctId": "FCT0027"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "ref": "022002144105A",
+ "refDisplay": "0220 02 144105A",
+ "title": "CALCULATEUR CAPTEUR ALIMENTATION",
+ "nature": "",
+ "applicability": "DEPOL CEE 95 (MOTEUR) ET BVM DEPUIS OPR 07801 OU DEPOL CEE 19-5 (MOTEUR) ET BVM DEPUIS OPR 07801",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6Q",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Q",
+   "fctId": "FCT0010"
+  },
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0F6Q",
+   "fctId": "FCT0010"
+  }
+ ]
+}

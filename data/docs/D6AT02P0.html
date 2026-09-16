@@ -1,0 +1,214 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">D6AT02P0</td><td class="title">Évolution  : Logiciel calculateur (V3.3)</td></tr></tbody></table></div><div id="appl" class="section_appl"></div><div class="section_corps" id="content"><div class="cha1"><div class="sti1">1. Généralités</div></div>
+<div class="par">Application depuis le numéro d’OPR :  7833.</div><div class="par">Véhicules électrique équipés du logiciel   V3.3.</div><div class="par">Le logiciel   V3.3 permet de gérer différents fichiers de paramètres.</div><div class="par">Les fichiers de paramètres peuvent être télécodés dans la mémoire EEPROM du calculateur   À l’aide d’outils de diagnostic.</div><div class="tli">Les calculateurs peuvent ainsi être paramétrés en fonction des éléments suivants : 
+<ul>
+<li>Batterie de traction  (à réserve augmentée ou normale)</li>
+<li>Prise secteur : 10, 13 ou 14 A (suivant le pays de destination)</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : EEPROM: Electrically Erasable Programmable Read Only Memory. </div></div>
+<div class="cha1"><div class="sti1">2. Principales évolutions   : Gestion des charges</div></div>
+<div class="cha2"><div class="sti2">2.1. Batterie 12 volts</div></div>
+<div class="tli">Si la batterie  12 volts est très déchargée (U batt. &lt; 3 V ± 0,5) : 
+<ul>
+<li>Le convertisseur n’est pas commandé</li>
+<li>Le défaut permanent "FONCTION CONVERTISSEUR" n’est pas déclaré</li>
+</ul>
+</div>
+<div class="rem"><div class="imp"><span class="maj">IMPERATIF</span> : Il convient donc de s’assurer d’un état de charge correct de la batterie   12 volts. </div></div>
+<div class="cha2"><div class="sti2">2.2. Batterie de traction ou chargeur</div></div>
+<div class="par">Lorsque la tension batterie de traction est très déchargée, le convertisseur n’est pas commandé pour ne pas la décharger davantage.</div><div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="3">Batterie de traction très déchargée</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">   -</td>
+<td colspan="1" rowspan="1">Batterie de traction </td>
+<td colspan="1" rowspan="1">Convertisseur de tension</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Phase de roulage</td>
+<td colspan="1" rowspan="2">&lt; 105 Volts</td>
+<td colspan="1" rowspan="3">Le convertisseur n’est pas commandé</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Phase de veille</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">En charge</td>
+<td colspan="1" rowspan="1">&lt; 90 Volts</td>
+</tr></tbody></table>
+</div>
+<div class="tli">La reprise du fonctionnement du convertisseur de tension se fait après les événements suivants : 
+<ul>
+<li>Le démarrage du chargeur embarqué ou du chargeur rapide</li>
+<li>Si la tension batterie traction est égale ou supérieure à   90 Volts</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">2.3. Charge d’entretien ou charge d’initialisation</div></div>
+<div class="tli">Lors de la programmation de ces charges, à l’aide d’outils de diagnostic, les fonctions suivantes sont réalisées en automatique : 
+<ul>
+<li>Remise à zéro des compteurs d’Ah surchargés</li>
+<li>Effacement du témoin "besoin en eau"</li>
+</ul>
+</div>
+<div class="par">Si une charge d’entretien ou d’initialisation est programmée, le voyant "STOP" clignote quand le véhicule est en situation de roulage    (contact mis, discontacteur collé).</div><div class="cha2"><div class="sti2">2.4. Charge normale - Charge d’égalisation</div></div>
+<div class="tli">Si on interrompt une charge normale ou d’égalisation et que l’on passe en phase de roulage : 
+<ul>
+<li>Le compteur d’Ah à surcharger n’est pas remis à zéro</li>
+<li>La valeur d’Ah est prise en compte lors de la charge suivante</li>
+<li>La durée de la phase de surcharge est allongée pour tenir compte du déficit en Ah à surcharger</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Après un temps d’immobilisation véhicule de plus de    14 jours, la première charge déclenchée est automatiquement une charge d’égalisation. </div></div>
+<div class="cha2"><div class="sti2">2.5. Gestion de roulage</div></div>
+<div class="par">Le bruiteur d’oubli moteur est remplacé par une sécurité provoquant le décollage du discontacteur à l’ouverture de la porte conducteur.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Le rétablissement du collage discontacteur se fait par une action sur le contact. </div></div>
+<div class="par">L’allumage automatique des feux stop en décélération est supprimé.</div><div class="par">Lorsque la jauge d’énergie indique une valeur &lt;        20 %, l’allumage des témoins "demande de charge" et "limitation temporaire" est simultané.</div><div class="cha2"><div class="sti2">2.6. Nouvelles fonctions diagnostic</div></div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Ces nouvelles fonctions apparaissent avec les mises à jour CD-ROM numéro  13. </div></div>
+<div class="cha2"><div class="sti2">2.7. Lecture défaut</div></div>
+<div class="par">L’apparition du défaut permanent "sécurité thermique chargeur batterie de traction" entraîne l’arrêt de la charge.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Le défaut "sécurité thermique chargeur batterie de traction" est lié à une anomalie de refroidissement du bloc électronique. </div></div>
+<div class="cha2"><div class="sti2">2.8. Entretien batterie de traction</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Fonctions </td>
+<td colspan="1" rowspan="1">Observations</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">État charge mémorisé</td>
+<td colspan="1" rowspan="1">Ce nouveau menu présente les informations relatives à la charge de la batterie de traction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Charge programmée</td>
+<td colspan="1" rowspan="1">Indication de la charge programmée à l’aide des outils de diagnostic</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">État dernière charge rapide</td>
+<td colspan="1" rowspan="1">Si lors de la dernière charge rapide, un numéro de défaut supérieur à "128" apparaît, le testeur affiche mauvais, sinon le testeur affiche bon</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Statut</td>
+<td colspan="1" rowspan="1">Le testeur affiche le code du défaut enregistre lors de la dernière charge rapide</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Tension maxi/tension mini</td>
+<td colspan="1" rowspan="1">Valeurs de tension mini et maxi atteinte durant la dernière charge rapide</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Annulation de charge programmée</td>
+<td colspan="1" rowspan="1">Ce menu permet d’annuler la charge programmée par les outils de diagnostic</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Historique batterie</td>
+<td colspan="1" rowspan="1">Ce nouveau menu présente les informations relatives à l’historique de la batterie de traction</td>
+</tr><tr valign="top"><td colspan="1" rowspan="6">Allumage voyant eau</td>
+<td colspan="1" rowspan="1">Compteur d’Ah surchargés pendant les phases de surcharge des charges normales ou d’égalisation</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Si le compteur affiche une valeur supérieure à 950 Ah, effectuer les opérations suivantes :</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Charge d’entretien</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Remise à niveau de l’électrolyte batterie</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Effacement témoin eau</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Restitution du véhicule au client</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Seuil voyant</td>
+<td colspan="1" rowspan="1">Valeur du compteur d’Ah surchargés pour l’allumage du voyant "besoin en eau" : 1110 Ah</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Cumuls (surcharge, décharge, durée) et seuil "T °C"</td>
+<td colspan="1" rowspan="1">Ces valeurs peuvent être demandées par l’antenne Véhicules Électriques</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Ces informations sont nécessaires pour remplir la fiche d’analyse "batterie de traction"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Effacement cumuls</td>
+<td colspan="1" rowspan="1">Cette possibilité permet de remettre à zéro tous les compteurs de menu historique batterie</td>
+</tr></tbody></table>
+</div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Utiliser la commande "effacement cumuls" qu’en cas d’échange de l’ensemble des coffres de la batterie de traction. </div></div>
+<div class="cha2"><div class="sti2">2.9. Mesures paramètres</div></div>
+<div class="par">Mesure charge/convertisseur.</div><div class="tli">Disparition des paramètres suivants dans le menu "mesure charge/convertisseur" : 
+<ul>
+<li>Charge programmée</li>
+<li>Charge rapide</li>
+<li>Broche type batterie</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Les informations "charge programmée" et "charge rapide" figurent dans le menu "état charge mémorisé". </div></div>
+<div class="cha2"><div class="sti2">2.10. Test actionneurs</div></div>
+<div class="tli">La fonction "test automatique" permet d’enchaîner les tests actionneurs les uns après les autres : 
+<ul>
+<li>Sans revenir au menu de choix des actionneurs</li>
+<li>Sans couper ou mettre le contact</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">2.11. Télécodage</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Fonctions </td>
+<td colspan="1" rowspan="1">Observations</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Choix du type de batterie</td>
+<td colspan="1" rowspan="1">Batterie de traction  (à réserve augmentée ou normale)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Choix du type de prise de secteur</td>
+<td colspan="1" rowspan="1">10, 13 ou 14 A (suivant le pays de destination)</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Prise en compte des paramètres</td>
+<td colspan="1" rowspan="1">Il devient inutile de retirer la barrette de sectionnement de la batterie de traction pour la prise en compte des paramètres</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Autotest calculateur </td>
+<td colspan="1" rowspan="1">La procédure d’autotest permet, suite à l’apparition d’un défaut, de tester les différentes mémoires du calculateur (voir opération correspondante)</td>
+</tr></tbody></table>
+</div>
+<div class="cha1"><div class="sti1">3. Interchangeabilité</div></div>
+<div class="par">Seuls les calculateurs équipés du logiciel V3.3 sont livrés en Pièces de Rechange.</div><div class="par">Il est nécessaire d’effectuer une procédure de "télécodage" lors de la pose d’un nouveau boîtier électronique ou d’un nouveau calculateur.</div><div class="tli">Si la mémorisation des Ah n’est pas possible (ligne diagnostic ne fonctionne pas), effectuer les opérations suivantes : 
+<ul>
+<li>Charge d’initialisation</li>
+<li>Remise en eau de la batterie de traction</li>
+<li>Effacement du compteur besoin en eau</li>
+</ul>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<thead><tr><th class="tete" colspan="4">Échange d’un calculateur ou d’un boîtier électronique</th></tr></thead>
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Numéro OPR</td>
+<td colspan="1" rowspan="1">Avant le        7724</td>
+<td colspan="1" rowspan="1">Entre 7724 et 7833 </td>
+<td colspan="1" rowspan="1"> supérieur à 7833</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Logiciel calculateur </td>
+<td colspan="1" rowspan="1">Version V3.1C</td>
+<td colspan="1" rowspan="1">Version V3.1C</td>
+<td colspan="1" rowspan="1">Version V3.3</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Numéro de fichiers de paramètres à télécodés</td>
+<td colspan="1" rowspan="1">022/023/024</td>
+<td colspan="1" rowspan="1">025/026/027</td>
+<td colspan="1" rowspan="1">025/026/027</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Batterie de traction </td>
+<td colspan="1" rowspan="1">Réserve normale</td>
+<td colspan="2" rowspan="1">Réserve augmentée</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Identification  (outils de diagnostic)</td>
+<td colspan="1" rowspan="1">"Ni/Cd"</td>
+<td colspan="1" rowspan="1">"Ni/Cd R"</td>
+<td colspan="1" rowspan="1">"Ni/Cd R"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Prise secteur</td>
+<td colspan="3" rowspan="1">10, 13 ou 14 A</td>
+</tr></tbody></table>
+</div>
+<div class="par">Ni/Cd R = batterie Nickel-Cadmium à réserve augmentée.</div><div class="cha1"><div class="sti1">4. Identification </div></div>
+<div class="tli">De nouvelles données apparaissent sur l’écran d’identification des outils de diagnostic suivant : 
+<ul>
+<li>Boîtier  ELIT</li>
+<li>Station PROXIA</li>
+<li>Station LEXIA</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">4.1. Description</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Fonctions </td>
+<td colspan="1" rowspan="1">Observations</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Version logiciel H.T (Haute Tension)</td>
+<td colspan="1" rowspan="1">Version du logiciel microcontrôleur haute tension : Affichage "03.3C"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Version logiciel B.T (Basse Tension)</td>
+<td colspan="1" rowspan="1">Version du logiciel microcontrôleur basse tension : Affichage "03.3C"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Version de paramètres</td>
+<td colspan="1" rowspan="1">Nom de la version du fichier de paramètre EEPROM</td>
+</tr><tr valign="top"><td colspan="1" rowspan="2">Type de prise de secteur utilisée pour la charge embarqué</td>
+<td colspan="1" rowspan="1">10, 13 ou 14 A</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Prise secteur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Éléments batterie</td>
+<td colspan="1" rowspan="1">Nombre d’élément composant la batterie de traction : Affichage "100"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">Paramètre type de batterie</td>
+<td colspan="1" rowspan="1">Si la batterie de traction est à réserve augmentée : Affichage "Ni/Cd R"</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">-</td>
+<td colspan="1" rowspan="1">Si la batterie de traction est à réserve normale : Affichage "Ni/Cd"</td>
+</tr></tbody></table>
+</div>
+<div class="cha2"><div class="sti2">4.2. Version de paramètres</div></div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Numéro de fichiers de paramètres</td>
+<td colspan="1" rowspan="1">Type de batterie de traction</td>
+<td colspan="1" rowspan="1">Prise secteur</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1"> 022</td>
+<td colspan="1" rowspan="3">Réserve normale</td>
+<td colspan="1" rowspan="1">14 A</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">023</td>
+<td colspan="1" rowspan="1">13 A</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">024</td>
+<td colspan="1" rowspan="1">10 A</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">025</td>
+<td colspan="1" rowspan="3">Réserve augmentée</td>
+<td colspan="1" rowspan="1">14 A</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">026</td>
+<td colspan="1" rowspan="1">13 A</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">027</td>
+<td colspan="1" rowspan="1">10 A</td>
+</tr></tbody></table>
+</div>
+<div class="par">Si la version du fichier de paramètres est inférieur à celle contenue dans les outils de diagnostic, la mention "effectuer télécodage" est affichée.</div><div class="par">Si la version du fichier de paramètres est supérieure à "    128", la mention "mauvais paramètres" est affichée.</div><div class="par">Si le calculateur est neuf, dans ce cas un télécodage est nécessaire   (voir opération correspondante).</div><div class="par">Si c’est un défaut de mémoire EEPROM (perte d’information), dans ce cas effectuer un autotest des mémoire calculateur.</div></div>

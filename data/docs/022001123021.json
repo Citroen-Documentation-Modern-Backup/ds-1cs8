@@ -1,0 +1,18 @@
+{
+ "ref": "022001123021",
+ "refDisplay": "0220 01 123021",
+ "title": "ARBRE A CAMES COURROIE PIGNON",
+ "nature": "",
+ "applicability": "DEPOLLUTION TECHNIQUE VEHICULE L4",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DA3&B0F=B0F6L",
+   "fctId": "FCT0007"
+  }
+ ]
+}

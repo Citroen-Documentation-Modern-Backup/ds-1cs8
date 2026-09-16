@@ -1,0 +1,18 @@
+{
+ "ref": "022007748905A",
+ "refDisplay": "0220 07 748905A",
+ "title": "PLANCHER CHARGE PANNEAU PROTECTION",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CS8",
+   "variantKey": "B0D=B0DAE&B0F=B0FE3",
+   "fctId": "FCT0116"
+  }
+ ]
+}
