@@ -1,18 +1,1 @@
-{
- "ref": "022006175610",
- "refDisplay": "0220 06 175610",
- "title": "BOITIER SONDE TEMPERATURE ECHAPP",
- "nature": "",
- "applicability": " SAUF DEPOLLUTION TECHNIQUE VEHICULE L4",
- "typDoc": "1",
- "css": [
-  "css/Document/pr.css"
- ],
- "usedBy": [
-  {
-   "ldp": "1CS8",
-   "variantKey": "B0D=B0DA3&B0F=B0F6L",
-   "fctId": "FCT0012"
-  }
- ]
-}
+{"ref":"022006175610","refDisplay":"0220 06 175610","title":"BOITIER SONDE TEMPERATURE ECHAPP","nature":"","applicability":" SAUF DEPOLLUTION TECHNIQUE VEHICULE L4","typDoc":"1","css":["css/Document/pr.css"],"usedBy":[{"ldp":"1CS8","variantKey":"B0D=B0DA3&B0F=B0F6L","fctId":"FCT0012"}],"kind":"pr","appl":"{(?1CS8)(B0F6L)[(DUV07)]}","tree":["document",{},[["thesaurus",{"type":"10","code":"000627"},[]],["thesaurus",{"type":"10","code":"015515"},[]],["thesaurus",{"type":"10","code":"016900"},[]],["mpr",{"catal":"0220","grp":"54","grp2":"06","maj":"20111008","numfich":"175610"},[["appl",{},["{(?1CS8)(B0F6L)[(DUV07)]}"]],["sti",{"ident":"5401"},[]],["img",{"numfich":"00039064","path":"/img/pr/64/0003/00039064.jpg","ext":"jpg"},[]],["repere",{"rep":"01"},[["pr",{"codesi":"000627","obsnfp":"LE-2009","ref":"00001628HT","refpg":"1628 HT"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)/($,,1,08364)/}"]]]],["descomp",{},[["lib",{"langue":"01"},["12W LONG 555"]]]]]],["pr",{"codesi":"000627","obsnfp":"LE-2010","ref":"00001628LP","refpg":"1628 LP"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)/($1,08365,,)/}"]]]],["descomp",{},[["lib",{"langue":"01"},["9,5W LONG 555"]]]]]],["pr",{"codesi":"015515","ref":"E144001","refpg":"E144001","typecommercial":"EUROREPAR"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)/($,,1,08364)/}"]]]]]],["pr",{"codesi":"015515","ref":"E144003","refpg":"E144003","typecommercial":"EUROREPAR"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)/($1,08365,,)/}"]]]]]],["interactivite",{"order":"01"},[["area",{"coords":"267, 240, 11","shape":"circle"},[]]]]]],["repere",{"rep":"70"},[["pr",{"codesi":"016900","ref":"96056722","refpg":"96 056 722"},[["pmont",{"coef":"02"},[["appl",{},["{(?1CS8)}"]]]],["descomp",{},[["lib",{"langue":"01"},["2T 5A8-13A16"]]]]]],["interactivite",{"order":"02"},[["area",{"coords":"420, 441, 11","shape":"circle"},[]],["area",{"coords":"44, 5, 11","shape":"circle"},[]]]]]]]]]]}

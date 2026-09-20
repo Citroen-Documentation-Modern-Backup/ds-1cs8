@@ -1,18 +1,1 @@
-{
- "ref": "022001223050C",
- "refDisplay": "0220 01 223050C",
- "title": "REMPLISSAGE HUILE DECANTEUR CANALISATION",
- "nature": "",
- "applicability": "DEPOLLUTION TECHNIQUE VEHICULE L4",
- "typDoc": "1",
- "css": [
-  "css/Document/pr.css"
- ],
- "usedBy": [
-  {
-   "ldp": "1CS8",
-   "variantKey": "B0D=B0DA3&B0F=B0F7J",
-   "fctId": "FCT0008"
-  }
- ]
-}
+{"ref":"022001223050C","refDisplay":"0220 01 223050C","title":"REMPLISSAGE HUILE DECANTEUR CANALISATION","nature":"","applicability":"DEPOLLUTION TECHNIQUE VEHICULE L4","typDoc":"1","css":["css/Document/pr.css"],"usedBy":[{"ldp":"1CS8","variantKey":"B0D=B0DA3&B0F=B0F7J","fctId":"FCT0008"}],"kind":"pr","appl":"{(?1CS8)(B0F7J)(DUV07)}","tree":["document",{},[["thesaurus",{"type":"10","code":"000698"},[]],["mpr",{"catal":"0220","grp":"33","grp2":"01","maj":"20111008","numfich":"223050C"},[["appl",{},["{(?1CS8)(B0F7J)(DUV07)}"]],["sti",{"ident":"3301"},[]],["img",{"numfich":"00078122","path":"/img/pr/22/0007/00078122.jpg","ext":"jpg"},[]],["repere",{"rep":"01"},[["pr",{"codesi":"000698","ref":"00001192WL","refpg":"1192 WL"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)}"]]]]]],["interactivite",{"order":"01"},[["area",{"coords":"277, 131, 11","shape":"circle"},[]]]]]]]]]]}

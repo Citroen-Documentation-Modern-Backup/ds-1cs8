@@ -1,18 +1,1 @@
-{
- "ref": "022001002018C",
- "refDisplay": "0220 01 002018C",
- "title": "ENSEMBLE MOTEUR",
- "nature": "",
- "applicability": "DEPOLLUTION TECHNIQUE VEHICULE L4 ET BVM",
- "typDoc": "1",
- "css": [
-  "css/Document/pr.css"
- ],
- "usedBy": [
-  {
-   "ldp": "1CS8",
-   "variantKey": "B0D=B0DA3&B0F=B0F7J",
-   "fctId": "FCT0049"
-  }
- ]
-}
+{"ref":"022001002018C","refDisplay":"0220 01 002018C","title":"ENSEMBLE MOTEUR","nature":"","applicability":"DEPOLLUTION TECHNIQUE VEHICULE L4 ET BVM","typDoc":"1","css":["css/Document/pr.css"],"usedBy":[{"ldp":"1CS8","variantKey":"B0D=B0DA3&B0F=B0F7J","fctId":"FCT0049"}],"kind":"pr","appl":"{(?1CS8)(B0F7J)(DUV07)(@BVM)}","tree":["document",{},[["thesaurus",{"type":"10","code":"013644"},[]],["thesaurus",{"type":"10","code":"013646"},[]],["mpr",{"catal":"0220","grp":"4","grp2":"01","maj":"20111008","numfich":"002018C"},[["appl",{},["{(?1CS8)(B0F7J)(DUV07)(@BVM)}"]],["sti",{"ident":"401"},[]],["img",{"numfich":"00031709","path":"/img/pr/09/0003/00031709.jpg","ext":"jpg"},[]],["repere",{"rep":"01"},[["pr",{"codesi":"013644","ref":"00000135AY","refpg":"0135 AY"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)}"]]]],["reporg",{},[["monte",{},["NFT"]]]]]],["pr",{"codesi":"013646","ref":"00000139NX","refpg":"0139 NX"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)(~2)}"]]]],["reporg",{},[["monte",{},["NFT"]]]]]],["interactivite",{"order":"01"},[["area",{"coords":"290, 70, 11","shape":"circle"},[]]]]]]]]]]}

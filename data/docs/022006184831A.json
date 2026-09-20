@@ -1,18 +1,1 @@
-{
- "ref": "022006184831A",
- "refDisplay": "0220 06 184831A",
- "title": "ECHAPPEMENT INTERMEDIAIRE ET AR",
- "nature": "",
- "applicability": "DEPOLLUTION TECHNIQUE VEHICULE L4",
- "typDoc": "1",
- "css": [
-  "css/Document/pr.css"
- ],
- "usedBy": [
-  {
-   "ldp": "1CS8",
-   "variantKey": "B0D=B0DA3&B0F=B0F7J",
-   "fctId": "FCT0011"
-  }
- ]
-}
+{"ref":"022006184831A","refDisplay":"0220 06 184831A","title":"ECHAPPEMENT INTERMEDIAIRE ET AR","nature":"","applicability":"DEPOLLUTION TECHNIQUE VEHICULE L4","typDoc":"1","css":["css/Document/pr.css"],"usedBy":[{"ldp":"1CS8","variantKey":"B0D=B0DA3&B0F=B0F7J","fctId":"FCT0011"}],"kind":"pr","appl":"{(?1CS8)(B0F7J)(DUV07)}","tree":["document",{},[["thesaurus",{"type":"10","code":"000604"},[]],["thesaurus",{"type":"10","code":"000623"},[]],["thesaurus",{"type":"10","code":"016514"},[]],["thesaurus",{"type":"10","code":"014896"},[]],["thesaurus",{"type":"10","code":"000188"},[]],["thesaurus",{"type":"10","code":"000662"},[]],["mpr",{"catal":"0220","grp":"50","grp2":"06","maj":"20111008","numfich":"184831A"},[["appl",{},["{(?1CS8)(B0F7J)(DUV07)}"]],["sti",{"ident":"5001"},[]],["img",{"numfich":"00039082","path":"/img/pr/82/0003/00039082.jpg","ext":"jpg"},[]],["repere",{"rep":"01"},[["pr",{"codesi":"000604","ref":"0000171779","refpg":"1717 79"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)}"]]]]]],["interactivite",{"order":"01"},[["area",{"coords":"177, 50, 11","shape":"circle"},[]]]]]],["repere",{"rep":"02"},[["pr",{"codesi":"000623","ref":"00001726S3","refpg":"1726 S3"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)}"]]]],["descomp",{},[["lib",{"langue":"01"},["PSA 3015/3016"]]]]]],["pr",{"codesi":"016514","ref":"E12848J","refpg":"E12848J","typecommercial":"EUROREPAR"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)}"]]]]]],["pr",{"codesi":"014896","ref":"E128C60","refpg":"E128C60","typecommercial":"EUROREPAR"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)}"]]]]]],["interactivite",{"order":"02"},[["area",{"coords":"223, 507, 11","shape":"circle"},[]]]]]],["repere",{"rep":"03"},[["pr",{"codesi":"000188","ref":"0000171353","refpg":"1713 53"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)}"]]]],["descomp",{},[["lib",{"langue":"01"},["DIAM 61"]]]]]],["interactivite",{"order":"03"},[["area",{"coords":"155, 508, 11","shape":"circle"},[]]]]]],["repere",{"rep":"04"},[["pr",{"codesi":"000662","ref":"0000175566","refpg":"1755 66"},[["pmont",{"coef":"01"},[["appl",{},["{(?1CS8)}"]]]]]],["interactivite",{"order":"04"},[["area",{"coords":"105, 265, 11","shape":"circle"},[]]]]]],["repere",{"rep":"05"},[["pr",{"codesi":"000662","ref":"0000175540","refpg":"1755 40"},[["pmont",{"coef":"02"},[["appl",{},["{(?1CS8)}"]]]]]],["interactivite",{"order":"05"},[["area",{"coords":"348, 487, 11","shape":"circle"},[]],["area",{"coords":"34, 393, 11","shape":"circle"},[]]]]]]]]]]}
